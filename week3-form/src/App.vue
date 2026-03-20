@@ -18,14 +18,14 @@ const userInfo = ref({
     </div>
     <div class="field">
       <label>성별:</label>
-      <label><input type="radio" v-model="userInfo.gender" value="male" />남성</label>
-      <label><input type="radio" v-model="userInfo.gender" value="female" />여성</label>
+      <label><input name="gender" type="radio" v-model="userInfo.gender" value="male" />남성</label>
+      <label><input name="gender" type="radio" v-model="userInfo.gender" value="female" />여성</label>
     </div>
     <div class="field">
       <label>취미:</label>
-      <label><input type="checkbox" v-model="userInfo.hobbies" value="코딩" /> 코딩</label>
-      <label><input type="checkbox" v-model="userInfo.hobbies" value="영화" /> 영화</label>
-      <label><input type="checkbox" v-model="userInfo.hobbies" value="게임" /> 게임</label>
+      <label><input name="hobbies" type="checkbox" v-model="userInfo.hobbies" value="코딩" /> 코딩</label>
+      <label><input name="hobbies" type="checkbox" v-model="userInfo.hobbies" value="영화" /> 영화</label>
+      <label><input name="hobbies" type="checkbox" v-model="userInfo.hobbies" value="게임" /> 게임</label>
     </div>
   <hr>
     <h3>실시간 데이터 반영 결과:</h3>
